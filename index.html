@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  </head>
+    <link rel="stylesheet" href="style.css">
+<body>
+    <h1>Szóbeli vizsga</h1>
+    <form>
+        <label for="tartalom">Tartalom:</label><br>
+        <input type="number" min="0" max="24" value="0" id="tartalom" name="tartalom"><br>
+        <label for="felepites">Felépítés:</label><br>
+        <input type="number" min="0" max="3" value="0" id="felepites" name="felepites">
+        </label><br>
+        <label for="eloadas">Előadásmód:</label><br>
+        <input type="number" min="0" max="3" value="0" id="eloadas" name="eloadas" >
+        </label>
+        <br>
+        <h1>Gyakorlati vizsga</h1>
+            <label for="halozat">Hálózati ismeretek:</label><br>
+            <input type="number" min="0" max="40" value="0" id="halozat" name="halozat"><br>
+            <label for="programozas">Programozás:</label><br>
+            <input type="number" min="0" max="40" value="0" id="programozas" name="programozas">
+            </label><br>
+            <label for="web">Weboldal, adatbátiskezelés:</label><br>
+            <input type="number" min="0" max="40" value="0" id="web" name="web">
+            </label><br><br>
+            <label><input type="button" value="Kiértékelés" onclick="Pontok()"></label>
+            <p id="Szössz"></p>
+            <p id="Gyössz"></p>
+            <p id="Össz"> </p>
+            <h3 id="jegyKözép"></h3>
+            <h3 id="jegyEmelt"></h3>
+            
+           
+    </form>
+   
+<script src="pontozolap.js"></script>
+</body>
+</html>
