@@ -17,7 +17,7 @@ function Pontok()
     var sz=Math.round(parseInt(Össz)/(150*0.01)) 
     document.getElementById("Szössz").innerHTML="A szóbeli vizsga összpontszáma: "+Szössz+" ("+szsz+"%)"
     document.getElementById("Gyössz").innerHTML="A gyakorlati vizsga összpontszáma: "+Gyössz+" ("+gysz+"%)"
-    document.getElementById("Össz").innerHTML="A vizsga összesített pontszáma: "+Össz+" ("+szsz+"%)"
+    document.getElementById("Össz").innerHTML="A vizsga összesített pontszáma: "+Össz+" ("+sz+"%)"
 
     if  (szsz<12||gysz<12||sz<25)
     {

@@ -4,27 +4,67 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet" type="text/css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
   </head>
     <link rel="stylesheet" href="style.css">
-<body>
+    <body id="myPage" data-spy="scroll" data-target=".navbar" data-offset="60">
+
+        <nav class="navbar navbar-default navbar-fixed-top">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>                        
+              </button>
+              <a class="navbar-brand" href="#myPage">Logo</a>
+            </div>
+            <div class="collapse navbar-collapse" id="myNavbar">
+              <ul class="nav navbar-nav navbar-right">
+                <li><a href="#tetel">Tétel</a></li>
+                <li><a href="#pontok">Pontozólap</a></li>
+                <li><a href="#forras">Források</a></li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+        <div class="jumbotron text-center">
+            <h1>Tétel</h1> 
+            <p>blalbalabla</p> 
+           
+          </div>
+                                              
+<div id="tetel"  class="container-fluid">
+    <p>Lórum ipse és éjjeli függöny javarészt galkomj, fitánzás. Ilyen cseliben nyilvánvalóan az sem mindegy, hogy a paparát hatag kényszerű telítésnek milyen héhebe van. „Ugyanakkor csacsos körös, hogy ezeknek a szetlentéknek semmi cselire sem lehet a gyapasztja, csupán a félvénye redres telítésekre reperes héhebek kétsége” - aggatja nyenség tika, a korgolat és kaskaságai rada puffadt hornás közölő nokánc érődésének tariája. Fejederű cseliben ugyanis zsibbaszt a szetlente szerképese, vagyis könnyen maga után fúrozhatja a szület részéről a „asztás” nyencet. Éppen ezért azt almozja a ring, hogy a pejegtől dévas könyögség telítése esetén alaposan elődt, jól szűrű resztetves keder mocska gyapasztot bolyázjanak meg. A tető már csak azért is tező, mert az Adó- és dévaros bőgő nekodász (csolikaritás) a terő pasztanok borgábában - a kátlék folyhos fockáit hajálás előtt tartva - tüzetesen aggatja a ható picén kedő hengő cizmusokat. A nyáron például a hanizás (rejtés) remenségére a bort egyik négyes bályáját fegyentették parokk alá, mondván: a tara rantja szerint huszi tujatástól kodik el ezen dacélok miatt a kedés (bükkös, halék jelő). A bizmus telítések pejeg, illetve aktorla maságát parosíthatja például, hogy küzdőnek felsők a körösei, de a csókás szetlentékre az is gyakran ízes, hogy nem galanak.
+      
+
+
+    </p>
+</div>
+
+<div id="pontok" class="container-fluid">
+            
     <h1>Szóbeli vizsga</h1>
     <form>
-        <label for="tartalom">Tartalom:</label><br>
+        <label for="tartalom">Tartalom (maximum 24 pont):</label><br>
         <input type="number" min="0" max="24" value="0" id="tartalom" name="tartalom"><br>
-        <label for="felepites">Felépítés:</label><br>
+        <label for="felepites">Felépítés(maximum 3 pont):</label><br>
         <input type="number" min="0" max="3" value="0" id="felepites" name="felepites">
         </label><br>
-        <label for="eloadas">Előadásmód:</label><br>
+        <label for="eloadas">Előadásmód (maximum 3 pont):</label><br>
         <input type="number" min="0" max="3" value="0" id="eloadas" name="eloadas" >
         </label>
         <br>
         <h1>Gyakorlati vizsga</h1>
-            <label for="halozat">Hálózati ismeretek:</label><br>
+            <label for="halozat">Hálózati ismeretek (maximum 40 pont):</label><br>
             <input type="number" min="0" max="40" value="0" id="halozat" name="halozat"><br>
-            <label for="programozas">Programozás:</label><br>
+            <label for="programozas">Programozás (maximum 40 pont):</label><br>
             <input type="number" min="0" max="40" value="0" id="programozas" name="programozas">
             </label><br>
-            <label for="web">Weboldal, adatbátiskezelés:</label><br>
+            <label for="web">Weboldal, adatbátiskezelés (maximum 40 pont):</label><br>
             <input type="number" min="0" max="40" value="0" id="web" name="web">
             </label><br><br>
             <label><input type="button" value="Kiértékelés" onclick="Pontok()"></label>
@@ -37,6 +77,10 @@
            
     </form>
    
+</div>
+<div id="forras"  class="container-fluid">
+ 
+</div>
 <script src="pontozolap.js"></script>
 </body>
 </html>
