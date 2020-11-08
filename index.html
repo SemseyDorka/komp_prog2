@@ -25,9 +25,9 @@
             </div>
             <div class="collapse navbar-collapse" id="myNavbar">
               <ul class="nav navbar-nav navbar-right">
-                <li><a href="#tetel">Tétel</a></li>
+                <li><a href="#virusok">Rosszindulatú szoftverek fajtái</a></li>
+                <li><a href="#vedekezes">Védekezés</a></li>
                 <li><a href="#pontok">Pontozólap</a></li>
-                <li><a href="#forras">Források</a></li>
               </ul>
             </div>
           </div>
@@ -38,7 +38,8 @@
            
           </div>
                                               
-<div id="tetel"  class="container-fluid">
+<div id="virusok"  class="container-fluid">
+  <div class="row">
     <div class="col-md-12 szöveg">
         <h2>Számítógépes vírusok fajtái, csoportosítása</h2>
         A számítógépes vírusokat több szempont szerint csoportosíthatjuk. Ilyen szempont szerint
@@ -47,17 +48,23 @@
         Terjedésük szerint lehetnek: boot vírusok, alkalmazásvírusok, makrovírusok, férgek.
    
         Károkozás szerint lehetnek: Rosszindulatú vírusok, ártarmatlan vírusok.
-  
+      </div>
        </div>
    <div class="row">
-    <div class="col-md-6 szöveg">
+    <div class="col-md-4 szöveg">
        <h3> Bootvírusok</h3>
         A boot vírusok az elsőként megjelenő vírusok közé tartoznak. Leggyakrabban akkor terjednek, ha fertőzött lemezzel indítjuk el a rendszert. Ebben az esetben a vírus a merevlemez boot
         szektorába ágyazódik be, így még az operációs rendszer betöltése előtt aktiválódik. Ennek
         hatására a fertőzött merevlemez az összes meghajtóba helyezett lemezt megfertőzi. A boot
         vírusok napjainkban a kevésbé elterjedt vírusfajták közé tartoznak.
        </div>
-       <div class="col-md-6 szöveg">
+       <div class="col-md-4">
+        <p id="kep"><img src="img_546809.png" id="ikon1"></p>
+
+       </div>
+       <div class="col-md-4 szöveg">
+  
+
         <h3>Alkalmazásvírusok</h3>
         Az alkalmazás- vagy más néven programvírusok a futtatható kódot tartalmazó (.COM, .EXE
         kiterjesztésű) állományokat fertőzik meg. A megfertőzött állományokba beírják a saját kódjukat.Két fajtáját különböztetjük meg: hozzáfűződő (append) és felülíró (replace) vírusokat. A
@@ -69,7 +76,87 @@
        </div>
    </div>
 
-    </p>
+   <div class="row">
+       <div class="col-md-6 szöveg"> 
+        <h3>Spyware</h3>
+        A spyware vagy más néven kémprogramok célja, hogy adatokat gyűjtsenek személyekről
+        vagy szervezetekről azok tudta nélkül a számítógép-hálózatokon. Az információszerzés célja
+        lehet például reklámanyagok eljuttatása a kikémlelt címekre, de akár ellophatják jelszavainkat, számlaszámainkat vagy más személyes adatainkat rosszindulatú akciók céljából is. A
+        vírusokhoz hasonlóan lehet őket „beszerezni”.</div>
+       <div class="col-md-6 szöveg"> <h3>Férgek</h3>
+        Terjedésük szempontjából a féreg vírusok eltérő viselkedésűek, mivel nem hagyományos értelemben fejtik ki károkozó hatásukat, hiszen nem tesznek kárt állományainkban. Elsősorban
+        interneten, hálózaton terjednek. Megbújnak a számítógépen, és információt gyűjtenek róla,
+        majd az összegyűjtött információkat tárolják. Ha ismét csatlakozunk az internetre, hálózatra,
+        akkor ezeket a tárolt információkat a megadott címre továbbítják.
+       </div>
+   </div>
+   <div class="row">
+    <div class="col-md-6 szöveg">
+     <h3>Makrovírusok</h3>
+     Elsősorban olyan dokumentumszerkesztő programokat támadnak meg a makrovírusok, melyek elég fejlettek, hogy bizonyos lépéssorozatokat képesek legyenek makrókkal automatizálni. Általában Word és Excel által készített dokumentumokat (.DOC, .XLS) fertőznek meg.
+     Terjedésükhöz elegendő egy fertőzött állomány megnyitása, és a vírus már be is töltődik a
+     memóriába, mely a későbbiekben megnyitott dokumentumokat megfertőzi. A fertőzést általában  már csak akkor vesszük észre, amikor már késő.
+     A makrovírusok csoportjába tartoznak a levelező vírusok is, melyek elsősorban e-mail útján
+     terjednek. A csatolt fertőzött fájlok megnyitásakor aktivizálják magukat és általában a levelezési listában szereplő partnereknek írnak levelet, melyhez saját maguk másolatát is hozzáfűzik. Ha a levelezési címlistában nagyon sok partner van, akkor olyan mennyiségű levéláradat
+     indulhat, amely megbénítja egy nagyvállalat levelezőrendszerét is.
+    </div>
+    <div class="col-md-6 szöveg">
+        <h3>Egyebek</h3>
+        <b>Trójai programok.</b> Hasznos alkalmazásnak álcázzák magukat, miközben kártékony hatásúak.
+        Hatásukat csak elindításuk után fejtik ki.A trójai programok annyiban hasonlítanak a vírusokra, hogy szükségük van valamilyen hordozó programra. A szaporító rész azonban hiányzik
+        belőlük, így a terjedésüket csak a hordozó programnak köszönhetik. <b>Lopakodók:</b> Az Antivirus
+        programot és az operációs rendszert megkerülve a gép memóriájában maradva, a fájl méreteit,
+        az operációs rendszer jellemzőit és a könyvtár struktúráját megváltoztatják. <b>Retrók:</b> A víruskereső alkalmazásokat nemcsak kijátszani, hanem hatástalanítani is igyekeznek. <b>Poliformok:</b>
+        Bármely vírus lehet poliform. Hogy nehezebben lehessen elcsípni azokat, minden fertőzéskor
+        megváltoznak.
+    </div>
+</div>
+<div id="vedekezes">
+<div class="row">
+  <div class="col-md-12 szöveg">
+
+    <h2>Modern vírus kereső,-mentesítő programok</h2>
+   
+    <p>Több szoftverfejlesztő cég foglalkozik víruskereső, –mentesítő programok készítésével. Ezek
+      biztosítják számunkra a víruskeresés legegyszerűbb módját.
+      
+      A mai modern víruskeresőknek van úgynevezett rezidens része, ami a memóriában tartózko-
+      dik, és állandóan figyeli a lemezműveleteket, ellenőrzi a lemezek indítószektorát is. Megvizs-
+      gálja a futtatható állományokat indításukkor, és csak akkor engedélyezi a futtatást, ha az ál-
+      lomány nem fertőzött. Ezek hátránya, hogy csak az elindított programokat és a betöltött állo-
+      mányokat vizsgálják, valamint lassítják a rendszert is. Beállítható, hogy fertőzött fájl esetén
+      
+      mit tegyenek: töröljék a fertőzött állományt, helyezzék karanténba, nevezzék át, próbálják
+      meg kijavítani, vagy ne tegyenek semmit.</p>
+      <img src="144084-200.png"  id="ikon2">
+      <p>
+        A víruskereső-, figyelő- és irtóprogramoknak az a feladata, hogy: 
+        <ul>
+          <li>Megakadályozzák a vírusok bejutását a gépünkbe.</li>
+          <li>Ha már bejutott a vírus, akkor felismerjék, és lehetőleg eltávolítsák.</li>
+          <li>Megakadályozzák, hogy a számítógép továbbadja a fertőzést.</li>
+        </ul>
+        <h3>Víruskereső programok általános szolgáltatásai</h3>
+      </p>
+    
+      A jobb víruskereső programok ma már többé-kevésbé ugyanazokat a szolgáltatásokat nyújt-
+ják. A három legfontosabb:
+<ol>
+  <li> A helyi és csatolt meghajtók időzíthető ellenőrzése. A programot be lehet állítani,
+    hogy bizonyos időszakonként ellenőrizze a merevlemezen, optikai meghajtón, hálózati
+    meghajtón tárolt valamennyi állományt. Ez a „teljes rendszerellenőrzés” nem csak au-
+    tomatikusan időzítve, hanem a felhasználó kérésére is elindítható.</li>
+  <li> Programok, dokumentumok ellenőrzése a megnyitásuk, letöltésük pillanatában</li>
+  <li> A vírusinformációk rendszeres frissítése.</li>
+  <li>Az állományokat ellenőrző kódokkal látja el, amelyek az állomány megváltozása ese-
+    tén azonnal gyanús tevékenységre lehet következtetni.</li>
+</ol>
+      <p>
+
+      </p>
+    </div>
+</div>
+</div>
 </div>
 
 <div id="pontok" class="container-fluid">
@@ -94,12 +181,14 @@
             <label for="web">Weboldal, adatbátiskezelés (maximum 40 pont):</label><br>
             <input type="number" min="0" max="40" value="0" id="web" name="web">
             </label><br><br>
+           
+            A szóbeli vizsga pontszáma: <p id="Szössz"></p>
+            A gyakorlati vizsga pontszáma:<p id="Gyössz"></p>
+            Az érettségi vizsga összpontszáma:<p id="Össz"> </p>
+            Osztályzat középszintű érettségi vizsga esetén: <b><p id="jegyKözép"></p></b>
+            Osztályzat emeltszintű érettségi vizsga esetén:
+            <b> <p id="jegyEmelt"></p></b>
             <label><input type="button" value="Kiértékelés" onclick="Pontok()"></label>
-            <p id="Szössz"></p>
-            <p id="Gyössz"></p>
-            <p id="Össz"> </p>
-            <h3 id="jegyKözép"></h3>
-            <h3 id="jegyEmelt"></h3>
             
            
     </form>
