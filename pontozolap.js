@@ -18,7 +18,7 @@ function Pontok()
     document.getElementById("Szössz").innerHTML=Szössz+" ("+szsz+"%)"
     document.getElementById("Gyössz").innerHTML=Gyössz+" ("+gysz+"%)"
     document.getElementById("Össz").innerHTML=Össz+" ("+sz+"%)"
-
+    
     if  (szsz<12||gysz<12||sz<25)
     {
         document.getElementById("jegyKözép").innerHTML=" Elégtelen (1)"
